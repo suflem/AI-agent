@@ -2,6 +2,7 @@
 venv/
 __pycache__/
 .idea/
+.gemini/
 *.pyc
 data/
 memories/chroma_db/
