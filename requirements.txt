@@ -1,0 +1,14 @@
+openai>=2.20.0
+python-dotenv>=1.2.0
+psutil>=7.0.0
+rich>=14.0.0
+textual>=0.75.0
+chromadb>=1.5.0
+fastapi>=0.116.0
+uvicorn>=0.35.0
+
+# 可选依赖 (按需安装)
+# PyPDF2>=3.0.0          # PDF 读取 (doc_tools)
+# python-pptx>=0.6.21    # PPT 生成 (ppt_tools)
+# openai-whisper>=20230314  # 语音转文字 (video_tools)
+# youtube-transcript-api>=0.6.0  # YouTube 字幕 (video_tools)

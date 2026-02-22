@@ -1,0 +1,266 @@
+{
+  "version": 1,
+  "default_theme": "opencode_night",
+  "themes": [
+    {
+      "name": "opencode_night",
+      "label": "夜幕代码",
+      "variant": "dark",
+      "tui": {
+        "screen_bg": "#1a1e2e",
+        "chat_bg": "#1e2233",
+        "side_bg": "#1a1d2d",
+        "drawer_bg": "#1c2030",
+        "live_bg": "#222638",
+        "panel_primary": "#d4975a",
+        "panel_secondary": "#4a5068",
+        "panel_muted": "#363c52",
+        "text_primary": "#dfe3ef",
+        "text_soft": "#aeb5c8",
+        "text_dim": "#7a8298",
+        "accent_a": "#d4975a",
+        "accent_b": "#e0a86a",
+        "accent_warn": "#e0c478",
+        "accent_good": "#6cc88a"
+      },
+      "web": {
+        "css_vars": {
+          "--bg-main": "#1e2233",
+          "--surface-0": "#1a1e2e",
+          "--surface-1": "#1e2233",
+          "--surface-2": "#222638",
+          "--surface-3": "#1a1d2d",
+          "--surface-4": "#262a3c",
+          "--border-1": "rgba(255, 255, 255, 0.05)",
+          "--border-2": "rgba(255, 255, 255, 0.03)",
+          "--text-main": "#dfe3ef",
+          "--text-soft": "#b4bbd0",
+          "--text-dim": "#8a92aa",
+          "--tint": "255, 255, 255",
+          "--text-on-accent": "#fff",
+          "--scrollbar-thumb": "rgba(255, 255, 255, 0.14)",
+          "--selection-bg": "rgba(212, 151, 90, 0.28)",
+          "--accent": "#d4975a",
+          "--accent-strong": "#e0a86a",
+          "--danger": "#e87c7c",
+          "--neu-light": "rgba(255, 255, 255, 0.07)",
+          "--neu-dark": "rgba(0, 0, 0, 0.55)"
+        },
+        "antd": {
+          "colorPrimary": "#d4975a",
+          "colorBgBase": "#1e2233",
+          "colorTextBase": "#dfe3ef",
+          "colorBorder": "rgba(255, 255, 255, 0.04)"
+        }
+      }
+    },
+    {
+      "name": "terminal_ice",
+      "label": "终端冰川",
+      "variant": "dark",
+      "tui": {
+        "screen_bg": "#1a2430",
+        "chat_bg": "#1e2836",
+        "side_bg": "#1a2330",
+        "drawer_bg": "#1c2634",
+        "live_bg": "#222e3c",
+        "panel_primary": "#5ab8d4",
+        "panel_secondary": "#3a5e72",
+        "panel_muted": "#2e4e60",
+        "text_primary": "#dfeaf2",
+        "text_soft": "#aec0d0",
+        "text_dim": "#7a94a8",
+        "accent_a": "#5ab8d4",
+        "accent_b": "#78cce4",
+        "accent_warn": "#d4a85a",
+        "accent_good": "#5ac88a"
+      },
+      "web": {
+        "css_vars": {
+          "--bg-main": "#1e2836",
+          "--surface-0": "#1a2430",
+          "--surface-1": "#1e2836",
+          "--surface-2": "#222e3c",
+          "--surface-3": "#1a2330",
+          "--surface-4": "#283442",
+          "--border-1": "rgba(180, 220, 255, 0.06)",
+          "--border-2": "rgba(180, 220, 255, 0.03)",
+          "--text-main": "#dfeaf2",
+          "--text-soft": "#b8cad8",
+          "--text-dim": "#8ea4b8",
+          "--tint": "255, 255, 255",
+          "--text-on-accent": "#fff",
+          "--scrollbar-thumb": "rgba(180, 220, 255, 0.14)",
+          "--selection-bg": "rgba(90, 184, 212, 0.28)",
+          "--accent": "#5ab8d4",
+          "--accent-strong": "#78cce4",
+          "--danger": "#e88c8c",
+          "--neu-light": "rgba(200, 230, 255, 0.06)",
+          "--neu-dark": "rgba(0, 0, 0, 0.55)"
+        },
+        "antd": {
+          "colorPrimary": "#5ab8d4",
+          "colorBgBase": "#1e2836",
+          "colorTextBase": "#dfeaf2",
+          "colorBorder": "rgba(180, 220, 255, 0.05)"
+        }
+      }
+    },
+    {
+      "name": "copper_drive",
+      "label": "铜色驱动",
+      "variant": "dark",
+      "tui": {
+        "screen_bg": "#261e16",
+        "chat_bg": "#2c241a",
+        "side_bg": "#261e16",
+        "drawer_bg": "#2a2018",
+        "live_bg": "#322820",
+        "panel_primary": "#c88a48",
+        "panel_secondary": "#6a5038",
+        "panel_muted": "#584430",
+        "text_primary": "#f0e4d4",
+        "text_soft": "#c8b8a0",
+        "text_dim": "#988870",
+        "accent_a": "#c88a48",
+        "accent_b": "#d8a060",
+        "accent_warn": "#d4b060",
+        "accent_good": "#68b878"
+      },
+      "web": {
+        "css_vars": {
+          "--bg-main": "#2c241a",
+          "--surface-0": "#261e16",
+          "--surface-1": "#2c241a",
+          "--surface-2": "#322820",
+          "--surface-3": "#261e16",
+          "--surface-4": "#382e24",
+          "--border-1": "rgba(220, 180, 120, 0.07)",
+          "--border-2": "rgba(220, 180, 120, 0.04)",
+          "--text-main": "#f0e4d4",
+          "--text-soft": "#d0c0a8",
+          "--text-dim": "#a89878",
+          "--tint": "255, 255, 255",
+          "--text-on-accent": "#fff",
+          "--scrollbar-thumb": "rgba(220, 180, 120, 0.16)",
+          "--selection-bg": "rgba(200, 138, 72, 0.28)",
+          "--accent": "#c88a48",
+          "--accent-strong": "#d8a060",
+          "--danger": "#d87878",
+          "--neu-light": "rgba(255, 230, 190, 0.07)",
+          "--neu-dark": "rgba(0, 0, 0, 0.55)"
+        },
+        "antd": {
+          "colorPrimary": "#c88a48",
+          "colorBgBase": "#2c241a",
+          "colorTextBase": "#f0e4d4",
+          "colorBorder": "rgba(220, 180, 120, 0.05)"
+        }
+      }
+    },
+    {
+      "name": "mint_matrix",
+      "label": "薄荷矩阵",
+      "variant": "dark",
+      "tui": {
+        "screen_bg": "#162420",
+        "chat_bg": "#1c2a26",
+        "side_bg": "#162420",
+        "drawer_bg": "#1a2824",
+        "live_bg": "#22302c",
+        "panel_primary": "#48b878",
+        "panel_secondary": "#386858",
+        "panel_muted": "#2e5848",
+        "text_primary": "#e0f0e8",
+        "text_soft": "#a8c8b8",
+        "text_dim": "#789888",
+        "accent_a": "#48b878",
+        "accent_b": "#68d098",
+        "accent_warn": "#d4b060",
+        "accent_good": "#58c880"
+      },
+      "web": {
+        "css_vars": {
+          "--bg-main": "#1c2a26",
+          "--surface-0": "#162420",
+          "--surface-1": "#1c2a26",
+          "--surface-2": "#22302c",
+          "--surface-3": "#162420",
+          "--surface-4": "#283832",
+          "--border-1": "rgba(120, 220, 170, 0.06)",
+          "--border-2": "rgba(120, 220, 170, 0.03)",
+          "--text-main": "#e0f0e8",
+          "--text-soft": "#b4d0c0",
+          "--text-dim": "#88a898",
+          "--tint": "255, 255, 255",
+          "--text-on-accent": "#fff",
+          "--scrollbar-thumb": "rgba(120, 220, 170, 0.14)",
+          "--selection-bg": "rgba(72, 184, 120, 0.28)",
+          "--accent": "#48b878",
+          "--accent-strong": "#68d098",
+          "--danger": "#d88888",
+          "--neu-light": "rgba(180, 255, 220, 0.06)",
+          "--neu-dark": "rgba(0, 0, 0, 0.55)"
+        },
+        "antd": {
+          "colorPrimary": "#48b878",
+          "colorBgBase": "#1c2a26",
+          "colorTextBase": "#e0f0e8",
+          "colorBorder": "rgba(120, 220, 170, 0.05)"
+        }
+      }
+    },
+    {
+      "name": "paper_terminal",
+      "label": "纸感终端",
+      "variant": "light",
+      "tui": {
+        "screen_bg": "#e0dcd4",
+        "chat_bg": "#e8e4dc",
+        "side_bg": "#dcd8d0",
+        "drawer_bg": "#d8d4cc",
+        "live_bg": "#ece8e0",
+        "panel_primary": "#5878a0",
+        "panel_secondary": "#8898b0",
+        "panel_muted": "#a0aec0",
+        "text_primary": "#2a3848",
+        "text_soft": "#485868",
+        "text_dim": "#788898",
+        "accent_a": "#4878b0",
+        "accent_b": "#6898c8",
+        "accent_warn": "#a08030",
+        "accent_good": "#388858"
+      },
+      "web": {
+        "css_vars": {
+          "--bg-main": "#e0dcd4",
+          "--surface-0": "#d8d4cc",
+          "--surface-1": "#e0dcd4",
+          "--surface-2": "#d8d4cc",
+          "--surface-3": "#dcd8d0",
+          "--surface-4": "#e8e4dc",
+          "--border-1": "rgba(80, 100, 130, 0.10)",
+          "--border-2": "rgba(80, 100, 130, 0.05)",
+          "--text-main": "#2a3040",
+          "--text-soft": "#4a5568",
+          "--text-dim": "#6b7a8c",
+          "--tint": "0, 0, 0",
+          "--text-on-accent": "#fff",
+          "--scrollbar-thumb": "rgba(0, 0, 0, 0.14)",
+          "--selection-bg": "rgba(72, 120, 176, 0.22)",
+          "--accent": "#4878b0",
+          "--accent-strong": "#5888c0",
+          "--danger": "#b85050",
+          "--neu-light": "rgba(255, 255, 255, 0.65)",
+          "--neu-dark": "rgba(0, 0, 0, 0.15)"
+        },
+        "antd": {
+          "colorPrimary": "#4878b0",
+          "colorBgBase": "#e0dcd4",
+          "colorTextBase": "#2a3848",
+          "colorBorder": "rgba(80, 100, 130, 0.06)"
+        }
+      }
+    }
+  ]
+}

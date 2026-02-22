@@ -1,0 +1,14 @@
+.env
+venv/
+__pycache__/
+.idea/
+*.pyc
+data/
+memories/chroma_db/
+memories/chat_history/
+frontend/release/
+frontend/node_modules/
+frontend/dist/
+frontend/.npm-cache/
+frontend/.vercel/
+*.log
